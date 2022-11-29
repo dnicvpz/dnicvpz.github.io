@@ -1,0 +1,83 @@
+.header{
+    min-height: 97vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7 ),rgba(4,9,30,0.7 )), url(images/005.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.conta{
+    padding-top: 100px;
+}
+.container{
+    margin: auto;
+    height: 450px;
+    width: 30%;
+    background-color: rgba(255, 255, 255, .5);
+    opacity: 1;
+    border-radius: 30px;
+}
+.log{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+img{
+    width: 80px;
+    height: 100px;
+    margin-top: 30px;
+}
+.btn{
+    display: fex;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    background-color: aliceblue;
+    border: 1px solid #000;
+    font-size: 14px;
+    align-items: center;
+    border-radius: 10px;
+    margin: auto;
+}
+body{ 
+    font-family: 'Poppins', sans-serif;
+    
+}  
+body {
+    animation: fadein 2s; 
+   }
+   @keyframes fadein {
+    0% {
+    opacity:0;
+    }
+    50%{
+    opacity:0.5;
+    }
+    100% {
+    opacity:1;
+    }
+   }
+
+.pb{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+.pu{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+@media(max-width: 700px){
+    .container{
+        margin: auto;
+        height: 450px;
+        width: 70%;
+        background-color: rgba(255, 255, 255, .5);
+        opacity: 1;
+        border-radius: 30px;
+    }
+}
